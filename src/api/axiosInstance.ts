@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance with default configuration
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3000',  // http:localhost:3000/v1 Use environment variables for flexibility
+  baseURL: 'https://altametrics-challenge-f9fb51c4a3db.herokuapp.com',  // http:localhost:3000/v1 Use environment variables for flexibility
   timeout: 5000,  // Set a timeout of 5 seconds for all requests
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded',  // Default content type
