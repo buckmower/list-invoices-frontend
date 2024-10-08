@@ -1,0 +1,64 @@
+/* Sidebar container */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #e0e7ff; /* Light purple/blue gradient */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Logo section */
+  .logo {
+    margin-bottom: 40px;
+  }
+  
+  .logo-placeholder {
+    background-color: #f0f0f0;
+    color: #6b7280;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* Menu section */
+  .menu p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #4b5563;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #374151;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu li:hover {
+    color: #1f2937;
+  }
+  
+  .menu li.active {
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .menu li::before {
+    margin-right: 10px;
+    color: #6b7280;
+  }
+  
