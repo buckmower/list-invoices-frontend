@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import moment from 'moment';
 import { useDispatch, useSelector } from 'react-redux';
-import { setInvoices, selectInvoice } from './redux/invoiceSlice';
+import { selectInvoice } from './redux/invoiceSlice';
 import { RootState, AppDispatch } from './redux/store';
 
 const Invoices: React.FC = () => {

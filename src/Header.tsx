@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { getInvoices, searchInvoices } from './api/invoiceServices';
-import { setInvoices, selectInvoice } from './redux/invoiceSlice';
-import { RootState, AppDispatch } from './redux/store';
+import { setInvoices } from './redux/invoiceSlice';
+import { AppDispatch } from './redux/store';
 
 const Header: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();

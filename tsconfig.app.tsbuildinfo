@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/header.tsx","./src/invoices.tsx","./src/sidebar.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/api/axiosinstance.ts","./src/api/invoiceservices.ts","./src/components/modal.tsx","./src/redux/invoiceslice.ts","./src/redux/store.ts"],"version":"5.6.2"}
